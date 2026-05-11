@@ -10,6 +10,11 @@ const screenshots = [
   "https://cdn.poehali.dev/projects/6bfc9184-1331-43da-a949-592cd4d5d6bd/bucket/789ffb56-d6e8-4b53-b53b-0cf7f326535b.png",
   "https://cdn.poehali.dev/projects/6bfc9184-1331-43da-a949-592cd4d5d6bd/bucket/5ad16155-a991-4cde-be14-9fb9c3a951af.png",
   "https://cdn.poehali.dev/projects/6bfc9184-1331-43da-a949-592cd4d5d6bd/bucket/1071f004-59c4-4f70-8380-387aa044a8ee.png",
+  "https://cdn.poehali.dev/projects/6bfc9184-1331-43da-a949-592cd4d5d6bd/bucket/58449082-ba8a-4456-a7e7-aa104408f21d.png",
+  "https://cdn.poehali.dev/projects/6bfc9184-1331-43da-a949-592cd4d5d6bd/bucket/dee7e20c-7dbd-4162-8e39-342389b90ab6.png",
+  "https://cdn.poehali.dev/projects/6bfc9184-1331-43da-a949-592cd4d5d6bd/bucket/a30f6251-f0f8-4384-9e0f-e246b92bad06.png",
+  "https://cdn.poehali.dev/projects/6bfc9184-1331-43da-a949-592cd4d5d6bd/bucket/4ea27fd1-5577-48a0-9aaa-149f385051fe.png",
+  "https://cdn.poehali.dev/projects/6bfc9184-1331-43da-a949-592cd4d5d6bd/bucket/1da93521-634e-4227-8492-cb50e77431f6.png",
 ];
 
 const Index = () => {
