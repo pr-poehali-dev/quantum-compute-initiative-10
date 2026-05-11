@@ -77,6 +77,42 @@ const Index = () => {
               </a>
             ))}
           </div>
+
+          <div className="mt-12 space-y-6">
+            <div className="bg-neutral-50 border border-neutral-200 rounded-xl p-6">
+              <h3 className="text-lg font-bold text-neutral-900 mb-4">Добавление статической ARP-записи на Альт Сервер (с автозагрузкой)</h3>
+              <ol className="space-y-4 text-sm text-neutral-700">
+                <li>
+                  <p className="font-semibold mb-2">1. Создание сервиса в <code className="bg-neutral-200 px-1 rounded">/etc/systemd/system/static-arp.service</code>:</p>
+                  <pre className="bg-neutral-900 text-green-400 rounded-lg p-4 overflow-x-auto text-xs">{`[Unit]
+Description="static arp"
+After=default.target
+
+[Service]
+ExecStart=/bin/arp -s 10.12.x.254 xx:xx:xx:xx:xx:xx
+
+[Install]
+WantedBy=default.target`}</pre>
+                </li>
+                <li>
+                  <p className="font-semibold mb-2">2. Перезапуск демонов:</p>
+                  <pre className="bg-neutral-900 text-green-400 rounded-lg p-4 overflow-x-auto text-xs">systemctl daemon-reload</pre>
+                </li>
+                <li>
+                  <p className="font-semibold mb-2">3. Добавление в автозагрузку:</p>
+                  <pre className="bg-neutral-900 text-green-400 rounded-lg p-4 overflow-x-auto text-xs">systemctl enable --now static-arp</pre>
+                </li>
+              </ol>
+              <p className="mt-4 text-sm text-neutral-700">Также в файле <code className="bg-neutral-200 px-1 rounded">/etc/net/ifaces/ens18/options</code> нужно заменить <code className="bg-neutral-200 px-1 rounded">static</code> на <code className="bg-neutral-200 px-1 rounded">dhcp</code>.</p>
+            </div>
+
+            <div className="bg-neutral-50 border border-neutral-200 rounded-xl p-6">
+              <h3 className="text-lg font-bold text-neutral-900 mb-3">Репозиторий с материалами</h3>
+              <a href="https://github.com/tattookley-prog/Demoekz" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline break-all">https://github.com/tattookley-prog/Demoekz</a>
+              <br />
+              <code className="text-sm text-neutral-600 break-all">https://github.com/tattookley-prog/Demoekz.git</code>
+            </div>
+          </div>
         </div>
       </section>
 
