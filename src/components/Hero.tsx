@@ -27,11 +27,17 @@ export default function Hero() {
 
       <div className="relative z-10 text-center text-white">
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6">
-          ОТКРОЙ
+          СДАШЬ
         </h1>
         <p className="text-lg md:text-xl max-w-2xl mx-auto px-6 opacity-90">
-          Исследуй границы дизайна с иммерсивным параллакс-эффектом
+          Все шпаргалки для экзамена — в одном месте. Кратко, чётко, по делу
         </p>
+        <a
+          href="#start"
+          className="inline-block mt-8 bg-white text-black px-8 py-3 text-sm uppercase tracking-wide font-semibold hover:bg-neutral-200 transition-colors duration-300"
+        >
+          Начать подготовку
+        </a>
       </div>
     </div>
   );
