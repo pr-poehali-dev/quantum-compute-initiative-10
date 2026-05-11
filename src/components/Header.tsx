@@ -20,6 +20,12 @@ export default function Header({ className }: HeaderProps) {
           >
             Начать
           </a>
+          <a
+            href="/networking"
+            className="text-white hover:text-neutral-400 transition-colors duration-300 uppercase text-sm"
+          >
+            Сети DE26
+          </a>
         </nav>
       </div>
     </header>
