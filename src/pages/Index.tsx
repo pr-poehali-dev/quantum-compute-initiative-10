@@ -15,6 +15,10 @@ const screenshots = [
   "https://cdn.poehali.dev/projects/6bfc9184-1331-43da-a949-592cd4d5d6bd/bucket/a30f6251-f0f8-4384-9e0f-e246b92bad06.png",
   "https://cdn.poehali.dev/projects/6bfc9184-1331-43da-a949-592cd4d5d6bd/bucket/4ea27fd1-5577-48a0-9aaa-149f385051fe.png",
   "https://cdn.poehali.dev/projects/6bfc9184-1331-43da-a949-592cd4d5d6bd/bucket/1da93521-634e-4227-8492-cb50e77431f6.png",
+  "https://cdn.poehali.dev/projects/6bfc9184-1331-43da-a949-592cd4d5d6bd/bucket/328640a5-2023-432b-9316-00b2d068838f.png",
+  "https://cdn.poehali.dev/projects/6bfc9184-1331-43da-a949-592cd4d5d6bd/bucket/aa83a077-2387-4e1f-b3c7-d83be27d0996.png",
+  "https://cdn.poehali.dev/projects/6bfc9184-1331-43da-a949-592cd4d5d6bd/bucket/149e3892-7a66-41df-b694-d78a6508dd69.png",
+  "https://cdn.poehali.dev/projects/6bfc9184-1331-43da-a949-592cd4d5d6bd/bucket/a8bd22ac-bc99-469d-af40-5cd25e7b3f19.png",
 ];
 
 const Index = () => {
